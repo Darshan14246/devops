@@ -1,5 +1,5 @@
 def test(name){
-   echo "hey $(name)"
-git credentialsID: 'Darshan14246' , url:https://github.com/Darshan14246/devops.git
+   echo "hey ${name}"
+git credentialsID: 'testing-devops', url: 'https://github.com/Darshan14246/devops.git'
 sh " ls -lrt "
 }
